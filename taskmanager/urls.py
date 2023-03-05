@@ -24,5 +24,5 @@ urlpatterns = [
     path('tasks/', include('tasks.urls', namespace='tasks')),
     path('notifications/', include('notifications.urls',
                                    namespace='notifications')),
-    path('administrator/', include('administrator.urls', namespace='administrator')),
+    path('admin/', include('administrator.urls', namespace='administrator')),
 ]

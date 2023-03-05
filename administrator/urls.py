@@ -5,5 +5,5 @@ app_name = 'administrator'
 
 urlpatterns = [
     path('users/', views.user_list, name='user_list'),
-    path('tasks/', views.task_statistics, name='task_statistics'),
+    path('stats/', views.task_statistics, name='task_statistics'),
 ]
